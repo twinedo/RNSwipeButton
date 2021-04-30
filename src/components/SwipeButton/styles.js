@@ -6,6 +6,8 @@ const Styles = StyleSheet.create({
     borderWidth: 1,
     justifyContent: 'center',
     margin: 5,
+    height: 43,
+    elevation: 1,
   },
   title: {
     alignSelf: 'center',

@@ -8,8 +8,10 @@ const Styles = StyleSheet.create({
     alignItems: 'flex-end',
     alignSelf: 'flex-start',
     borderRadius: maxContainerHeight / 2,
-    borderRightWidth: 0,
-    borderWidth,
+    // borderRightWidth: 0,
+    // borderWidth,
+    height: 40,
+    borderColor: 'black',
     margin,
   },
   containerRTL: {
@@ -25,7 +27,19 @@ const Styles = StyleSheet.create({
     borderRadius: maxContainerHeight / 2,
     borderWidth: 2,
     justifyContent: 'center',
-    marginVertical: -borderWidth,
+    // marginVertical: -borderWidth,
+    height: 50,
+    elevation: 2,
+    overflow: 'hidden',
+    shadowColor: 'black',
+    shadowRadius: 10,
+    shadowOpacity: 1,
+  },
+  defaultThumbIcon: {
+    width: 150,
+    height: 150,
+    borderRadius: 100 / 2,
+    backgroundColor: '#800080',
   },
 });
 
